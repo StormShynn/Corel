@@ -1,0 +1,34 @@
+copy
+\printMarks\
+to
+C:\Users\@username@\AppData\Roaming\Corel\CorelDRAW Graphics Suite XX\Custom Data\
+C:\Documents and Settings\@username@\Application Data\Corel\CorelDRAW Graphics Suite XX\Custom Data\
+
+copy
+InfUtilits.gms
+to
+C:\Users\@username@\AppData\Roaming\Corel\CorelDRAW Graphics Suite XX\Draw\GMS\
+C:\Documents and Settings\@username@\Application Data\Corel\CorelDRAW Graphics Suite XX\Draw\GMS\
+
+import workspace from file
+InfUtilits.xslt
+
+включить "InfUtilits" toolbar в настройках
+
+на вспомогательные макросы настроить произвольные клавиатурные сокращения
+DuplicateHotKeys
+DistributeToEdge
+RotateHotKeys
+
+DuplicateHotKeys:
+ctrl + shift + arrow keys
+
+DistributeToEdge:
+ctrl + alt + t
+ctrl + alt + b
+ctrl + alt + l
+ctrl + alt + r
+
+RotateHotKeys
+ctrl + alt + arrow left
+ctrl + alt + arrow right
